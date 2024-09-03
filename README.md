@@ -22,9 +22,9 @@
 
 ## Discuss
 
-Any favorites? Pet peeves?... How would the general approaches introduced here compare, tie in with the established patterns such as:
-
-- Cat: [Reader](https://typelevel.org/cats/api/cats/data/package$$Reader$.html), [Kleisli](https://typelevel.org/cats/datatypes/kleisli.html); see [here](https://stackoverflow.com/questions/29226560/is-it-just-a-coincidence-that-kleisli-readert-and-reader-are-the-same-in-scala) 
-- Cats MTL: [Ask](https://typelevel.org/cats-mtl/mtl-classes/ask.html)
-- Cake pattern
-- ZIO
+- Any favorites? Pet peeves?... 
+- How would the general approaches introduced here compare, tie in with the established patterns such as:
+  - Cat: [Reader](https://typelevel.org/cats/api/cats/data/package$$Reader$.html), [Kleisli](https://typelevel.org/cats/datatypes/kleisli.html); see [here](https://stackoverflow.com/questions/29226560/is-it-just-a-coincidence-that-kleisli-readert-and-reader-are-the-same-in-scala) 
+  - Cats MTL: [Ask](https://typelevel.org/cats-mtl/mtl-classes/ask.html)
+  - Cake pattern
+  - ZIO
