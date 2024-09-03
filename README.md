@@ -10,6 +10,42 @@
 - [Models](domain/Models.scala)
 - [Interfaces](domain/Interfaces.scala)
 
+### class diagram
+
+```mermaid
+classDiagram
+    class CoffeeGrinder {
+        + grind: CoffeeBean => GroundCoffee
+    }
+
+    class CoffeeMaker {
+        + brew: GroundCoffee => Coffee
+    }
+
+    class Barista {
+        + work: CoffeeBean => Money
+    }
+
+    CoffeeGrinder <|-- Barista : uses
+    CoffeeMaker <|-- Barista : uses
+```
+
+### Flowchart
+
+```mermaid
+flowchart TD
+    subgraph Coffeeshop
+        CoffeeBean -->|grind| GroundCoffee
+        GroundCoffee -->|brew| Coffee
+        Coffee -->|sell| Money
+    end
+
+    subgraph WorK
+        CoffeeBean -->|work| Money
+    end
+
+```
+
 ## Comparisons
 
 | Link                                 | Run                                          | Comparison with Vanila approach                                |

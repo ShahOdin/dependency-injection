@@ -25,7 +25,7 @@ object Impls:
         coffeeBean
           .pipe(grinder.grind)
           .pipe(coffeeMaker.brew)
-          .pipe(coffee => Money(s"Money(${coffee.value})"))
+          .pipe(sell)
 
 object Resources:
   val beans: List[CoffeeBean] = List.fill(5)(CoffeeBean("<>"))

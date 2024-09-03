@@ -6,4 +6,5 @@ object Interfaces:
   trait CoffeeMaker:
     def brew: GroundCoffee => Coffee
   trait Barista:
+    protected def sell: Coffee => Money = coffee => Money(s"Money(${coffee.value})")
     def work: CoffeeBean => Money
