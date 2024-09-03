@@ -2,7 +2,8 @@
 
 ## Requirements
 
-scala-cli: https://scala-cli.virtuslab.org/install
+- [scala-cli](https://scala-cli.virtuslab.org/install) 
+- [colordiff](https://formulae.brew.sh/formula/colordiff) (optional)
 
 ## Comparisons
 
