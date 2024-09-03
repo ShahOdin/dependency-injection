@@ -19,7 +19,7 @@
 
 Any favorites? Pet peeves?... How would the general approaches introduced here compare to the established patterns such as:
 
-- [Cat:`Reader`](https://typelevel.org/cats/api/cats/data/package$$Reader$.html)
-- [Cats MTL:`Ask`](https://typelevel.org/cats-mtl/mtl-classes/ask.html)
+- Cat: [Reader](https://typelevel.org/cats/api/cats/data/package$$Reader$.html), [Kleisli](https://typelevel.org/cats/datatypes/kleisli.html) 
+- Cats MTL: [Ask](https://typelevel.org/cats-mtl/mtl-classes/ask.html)
 - Cake pattern
 - ZIO
