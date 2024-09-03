@@ -1,4 +1,4 @@
-object Types:
+object Models:
   opaque type CoffeeBean = String
   object CoffeeBean:
     def apply(s: String): CoffeeBean = s

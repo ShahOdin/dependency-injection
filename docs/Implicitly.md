@@ -2,7 +2,7 @@
 # Dependencies are passed implicitly
 
 ```scala 3
-import Types.*
+import Models.*
 import Interfaces.*
 import Impls.*
 import scala.util.chaining.*

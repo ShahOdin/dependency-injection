@@ -1,4 +1,4 @@
-import Types.*
+import Models.*
 
 object Interfaces:
   trait CoffeeGrinder:

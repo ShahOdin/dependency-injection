@@ -5,20 +5,20 @@
 - [scala-cli](https://scala-cli.virtuslab.org/install) 
 - [colordiff](https://formulae.brew.sh/formula/colordiff) (optional)
 
-## Models
+## Domain
 
-- [Types](./models/Types.scala)
-- [Interfaces](./models/Interfaces.scala)
+- [Models](domain/Models.scala)
+- [Interfaces](domain/Interfaces.scala)
 
 ## Comparisons
 
 | Link                                 | Run                                          | Comparison with Vanila approach                                |
 |--------------------------------------|----------------------------------------------|----------------------------------------------------------------|
-| [Vanila approach](docs/Vanila.md)     | `scala-cli ./models docs/Vanila.md`          | N/A                                                            |
-| [Using Guice](docs/Guice.md)          | `scala-cli ./models docs/Guice.md`           | `colordiff ./docs/Vanila.md ./docs/Guice.md --side-by-side`      |
-| [Implicitly](docs/Implicitly.md)      | `scala-cli ./models docs/Implicitly.md`      | `colordiff ./docs/Vanila.md ./docs/Implicitly.md --side-by-side` |
-| [ImplicitlyTyped](docs/ImplicitlyTyped.md) | `scala-cli ./models docs/ImplicitlyTyped.md` | `colordiff ./docs/Vanila.md ./docs/ImplicitlyTyped.md --side-by-side` |
-| [ExplicitlyUsing](docs/ExplicitlyUsing.md) | `scala-cli ./models docs/ExplicitlyUsing.md` | `colordiff ./docs/Vanila.md ./docs/ExplicitlyUsing.md --side-by-side` |
+| [Vanila approach](docs/Vanila.md)     | `scala-cli ./domain docs/Vanila.md`          | N/A                                                            |
+| [Using Guice](docs/Guice.md)          | `scala-cli ./domain docs/Guice.md`           | `colordiff ./docs/Vanila.md ./docs/Guice.md --side-by-side`      |
+| [Implicitly](docs/Implicitly.md)      | `scala-cli ./domain docs/Implicitly.md`      | `colordiff ./docs/Vanila.md ./docs/Implicitly.md --side-by-side` |
+| [ImplicitlyTyped](docs/ImplicitlyTyped.md) | `scala-cli ./domain docs/ImplicitlyTyped.md` | `colordiff ./docs/Vanila.md ./docs/ImplicitlyTyped.md --side-by-side` |
+| [ExplicitlyUsing](docs/ExplicitlyUsing.md) | `scala-cli ./domain docs/ExplicitlyUsing.md` | `colordiff ./docs/Vanila.md ./docs/ExplicitlyUsing.md --side-by-side` |
 
 ## Discuss
 

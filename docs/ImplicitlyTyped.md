@@ -4,7 +4,7 @@ see the documentation on it here: https://docs.scala-lang.org/scala3/reference/c
 and here is a useful article on it: https://blog.softwaremill.com/context-is-king-20f533474cb3
 
 ```scala 3
-import Types.*
+import Models.*
 import Interfaces.*
 import Impls.*
 import scala.util.chaining.*

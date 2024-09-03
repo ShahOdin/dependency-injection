@@ -3,7 +3,7 @@
 ```scala 3
 //> using dep "net.codingwell::scala-guice:7.0.0"
 
-import Types.*
+import Models.*
 import Interfaces.*
 import Impls.*
 import scala.util.chaining.*
