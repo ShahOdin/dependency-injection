@@ -5,6 +5,11 @@
 - [scala-cli](https://scala-cli.virtuslab.org/install) 
 - [colordiff](https://formulae.brew.sh/formula/colordiff) (optional)
 
+## Models
+
+- [Types](./models/Types.scala)
+- [Interfaces](./models/Interfaces.scala)
+
 ## Comparisons
 
 | Link                                 | Run                                          | Comparison with Vanila approach                                |
