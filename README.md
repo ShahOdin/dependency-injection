@@ -10,7 +10,7 @@
 - [Models](domain/Models.scala)
 - [Interfaces](domain/Interfaces.scala)
 
-### class diagram
+### Class Diagram
 
 ```mermaid
 classDiagram
