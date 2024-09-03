@@ -1,5 +1,7 @@
 # The general approach in scala
 
+Ignoring Resource acquisition, async instance creation etc. for now.  
+
 ```scala 3
 import Models.*
 import Interfaces.*
